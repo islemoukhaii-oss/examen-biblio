@@ -1,4 +1,7 @@
 titre=input("titre d'une biblioteque")
 exemplaires=int(input("nombre d'exemplaires:"))
+
 print("livres:",titre)
 print("emplaires disponible :",exemplaires)
+exemplaires=exemplaires-1
+print("apres emprut:",exemplaires, "exemplaire(s) disponible(s)")
